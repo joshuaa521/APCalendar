@@ -1,5 +1,6 @@
 public class APCalendar {
-    private static boolean isLeapYear(int year) {
+    public static boolean isLeapYear(int year) {
+        // Made public for test case purposes //
         boolean four = year % 4 == 0;
         boolean hundred = year % 100 == 0;
         boolean fourhundred = year % 400 == 0;
@@ -15,7 +16,8 @@ public class APCalendar {
 
 
     }
-    private static int firstDayOfYear (int year) {
+    public static int firstDayOfYear (int year) {
+        // Made public for test case purposes //
         int day = 1;
         for (int i = 1; i < year; i++)
         {
@@ -25,7 +27,8 @@ public class APCalendar {
         return day % 7;
 
     }
-    private static int dayOfYear (int month, int day, int year){
+    public static int dayOfYear (int month, int day, int year){
+        // Made public for test case purposes //
         int days = 0;
         if (month > 1) days += 31;
         if (month > 2) days += 28;

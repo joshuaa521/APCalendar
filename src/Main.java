@@ -4,6 +4,10 @@ public class Main {
         System.out.println(APCalendar.numberOfLeapYears(2000,2025));
         System.out.println(APCalendar.dayOfWeek(1, 5, 2019));
         System.out.println(APCalendar.dayOfWeek(1, 10, 2019));
+        System.out.println(APCalendar.firstDayOfYear(2019));
+        System.out.println(APCalendar.dayOfYear(3, 1, 2017));
+        System.out.println(APCalendar.dayOfYear(3, 1, 2016));
+
 
     }
 }
